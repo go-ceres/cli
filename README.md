@@ -31,7 +31,7 @@ Go Modules are required when using this package. [See the go blog guide on using
 ### Using `v2` releases
 
 ```
-$ GO111MODULE=on go get github.com/urfave/cli/v2
+$ GO111MODULE=on go get github.com/go-ceres/cli/v2
 ```
 
 ```go
