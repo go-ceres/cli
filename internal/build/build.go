@@ -13,7 +13,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/urfave/cli/v2"
+	"github.com/go-ceres/cli/v2"
 )
 
 var packages = []string{"cli", "altsrc"}
@@ -22,7 +22,7 @@ func main() {
 	app := cli.NewApp()
 
 	app.Name = "builder"
-	app.Usage = "Generates a new urfave/cli build!"
+	app.Usage = "Generates a new go-ceres/cli build!"
 
 	app.Commands = cli.Commands{
 		{
@@ -72,9 +72,9 @@ func TestActionFunc(c *cli.Context) error {
 		var packageName string
 
 		if pkg == "cli" {
-			packageName = "github.com/urfave/cli/v2"
+			packageName = "github.com/go-ceres/cli/v2"
 		} else {
-			packageName = fmt.Sprintf("github.com/urfave/cli/v2/%s", pkg)
+			packageName = fmt.Sprintf("github.com/go-ceres/cli/v2/%s", pkg)
 		}
 
 		coverProfile := fmt.Sprintf("--coverprofile=%s.coverprofile", pkg)
@@ -185,8 +185,8 @@ func TocActionFunc(c *cli.Context) error {
 }
 
 // checkBinarySizeActionFunc checks the size of an example binary to ensure that we are keeping size down
-// this was originally inspired by https://github.com/urfave/cli/issues/1055, and followed up on as a part
-// of https://github.com/urfave/cli/issues/1057
+// this was originally inspired by https://github.com/go-ceres/cli/issues/1055, and followed up on as a part
+// of https://github.com/go-ceres/cli/issues/1057
 func checkBinarySizeActionFunc(c *cli.Context) (err error) {
 	const (
 		cliSourceFilePath    = "./internal/example-cli/example-cli.go"

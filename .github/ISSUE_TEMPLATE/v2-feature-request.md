@@ -9,8 +9,8 @@ assignees: ''
 
 ## Checklist
 
-* [ ] Are you running the latest v2 release? The list of releases is [here](https://github.com/urfave/cli/releases).
-* [ ] Did you check the manual for your release? The v2 manual is [here](https://github.com/urfave/cli/blob/master/docs/v2/manual.md)
+* [ ] Are you running the latest v2 release? The list of releases is [here](https://github.com/go-ceres/cli/releases).
+* [ ] Did you check the manual for your release? The v2 manual is [here](https://github.com/go-ceres/cli/blob/master/docs/v2/manual.md)
 * [ ] Did you perform a search about this feature? Here's the [Github guide](https://help.github.com/en/github/managing-your-work-on-github/using-search-to-filter-issues-and-pull-requests) about searching.
 
 ## What problem does this solve?
