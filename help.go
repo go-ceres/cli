@@ -22,6 +22,7 @@ var helpCommand = &Command{
 		}
 
 		_ = ShowAppHelp(c)
+		os.Exit(0)
 		return nil
 	},
 }

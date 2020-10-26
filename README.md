@@ -1,5 +1,6 @@
 cli
 ===
+CLI is a fork of urfave/cli
 
 [![GoDoc](https://godoc.org/github.com/urfave/cli?status.svg)](https://godoc.org/github.com/urfave/cli)
 [![codebeat](https://codebeat.co/badges/0a8f30aa-f975-404b-b878-5fab3ae1cc5f)](https://codebeat.co/projects/github-com-urfave-cli)
@@ -36,7 +37,7 @@ $ GO111MODULE=on go get github.com/urfave/cli/v2
 ```go
 ...
 import (
-  "github.com/urfave/cli/v2" // imports as package "cli"
+  "github.com/go-ceres/cli/v2" // imports as package "cli"
 )
 ...
 ```
@@ -44,13 +45,13 @@ import (
 ### Using `v1` releases
 
 ```
-$ GO111MODULE=on go get github.com/urfave/cli
+$ GO111MODULE=on go get github.com/go-ceres/cli
 ```
 
 ```go
 ...
 import (
-  "github.com/urfave/cli"
+  "github.com/go-ceres/cli"
 )
 ...
 ```
