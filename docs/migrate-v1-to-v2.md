@@ -8,7 +8,7 @@ compiler errors. We hope this will be sufficient for most typical
 users.
 
 If you find any issues not covered by this document, please post a
-comment on [Issue 921](https://github.com/urfave/cli/issues/921) or
+comment on [Issue 921](https://github.com/go-ceres/cli/issues/921) or
 consider sending a PR to help improve this guide.
 
 <!-- toc -->
@@ -46,12 +46,12 @@ cli hello rick --shout
 
 # Import string changed
 
-* OLD: `import "github.com/urfave/cli"`
-* NEW: `import "github.com/urfave/cli/v2"`
+* OLD: `import "github.com/go-ceres/cli"`
+* NEW: `import "github.com/go-ceres/cli/v2"`
 
 Check each file for this and make the change.
 
-Shell command to find them all: `fgrep -rl github.com/urfave/cli *`
+Shell command to find them all: `fgrep -rl github.com/go-ceres/cli *`
 
 # Flag aliases are done differently.
 
@@ -73,7 +73,7 @@ cli.StringFlag{
 ```
 
 Sadly v2 doesn't warn you if a comma is in the name.
-(https://github.com/urfave/cli/issues/1103)
+(https://github.com/go-ceres/cli/issues/1103)
 
 # EnvVar is now a list (EnvVars)
 
@@ -192,5 +192,5 @@ Then test the program itself.
 
 If you find any issues not covered by this document please let us know
 by submitting a comment on
-[Issue 921](https://github.com/urfave/cli/issues/921)
+[Issue 921](https://github.com/go-ceres/cli/issues/921)
 so that others can benefit.

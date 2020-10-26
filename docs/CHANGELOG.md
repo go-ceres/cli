@@ -8,57 +8,57 @@ View [unreleased 2.X] series changes.
 
 ## [2.2.0] - 2020-03-08
 
-These release notes were written for the git hash [d648edd48d89ef3a841b1ec75c2ebbd4de5f748f](https://github.com/urfave/cli/tree/d648edd48d89ef3a841b1ec75c2ebbd4de5f748f)
+These release notes were written for the git hash [d648edd48d89ef3a841b1ec75c2ebbd4de5f748f](https://github.com/go-ceres/cli/tree/d648edd48d89ef3a841b1ec75c2ebbd4de5f748f)
 
 ### Fixed
 
-* Fixed zsh completion scripts in [urfave/cli/pull/1062](https://github.com/urfave/cli/pull/1062) via [@zhsj](https://github.com/zhsj)
-* Fixed description of subcommand to be more consistent in [urfave/cli/pull/1054](https://github.com/urfave/cli/pull/1054) via [@itchyny](https://github.com/itchyny)
-* Fixed possible runtime panic in slice parsing in [urfave/cli/pull/1049](https://github.com/urfave/cli/pull/1049) via [@saschagrunert](https://github.com/saschagrunert)
-* Fixed invalid man page header generation in [urfave/cli/pull/1041](https://github.com/urfave/cli/pull/1041) via [@saschagrunert](https://github.com/saschagrunert)
+* Fixed zsh completion scripts in [go-ceres/cli/pull/1062](https://github.com/go-ceres/cli/pull/1062) via [@zhsj](https://github.com/zhsj)
+* Fixed description of subcommand to be more consistent in [go-ceres/cli/pull/1054](https://github.com/go-ceres/cli/pull/1054) via [@itchyny](https://github.com/itchyny)
+* Fixed possible runtime panic in slice parsing in [go-ceres/cli/pull/1049](https://github.com/go-ceres/cli/pull/1049) via [@saschagrunert](https://github.com/saschagrunert)
+* Fixed invalid man page header generation in [go-ceres/cli/pull/1041](https://github.com/go-ceres/cli/pull/1041) via [@saschagrunert](https://github.com/saschagrunert)
 
 ### Changed
 
-* Improved auto-completion instructions and added example gifs in [urfave/cli/pull/1059](https://github.com/urfave/cli/pull/1059) via [@masonj188](https://github.com/masonj188)
-* Removed the author from generated man pages in [urfave/cli/pull/1041](https://github.com/urfave/cli/pull/1041) via [@saschagrunert](https://github.com/saschagrunert)
+* Improved auto-completion instructions and added example gifs in [go-ceres/cli/pull/1059](https://github.com/go-ceres/cli/pull/1059) via [@masonj188](https://github.com/masonj188)
+* Removed the author from generated man pages in [go-ceres/cli/pull/1041](https://github.com/go-ceres/cli/pull/1041) via [@saschagrunert](https://github.com/saschagrunert)
 
 ### Added
 
-* Added destination field to `StringSliceFlag` in [urfave/cli/pull/1078](https://github.com/urfave/cli/pull/1078) via [@davidsbond](https://github.com/davidsbond)
-* Added `HideHelpCommand`. While `HideHelp` hides both `help` command and `--help` flag, `HideHelpCommand` only hides `help` command and leave `--help` flag as-is in [urfave/cli/pull/1083](https://github.com/urfave/cli/pull/1083) via [@AkihiroSuda](https://github.com/AkihiroSuda)
-* Added timestampFlag docs in [urfave/cli/pull/997](https://github.com/urfave/cli/pull/997) via [@drov0](https://github.com/drov0)
-* Added required flags documentation in [urfave/cli/pull/1008](https://github.com/urfave/cli/pull/1008) via [@lynncyrin](https://github.com/lynncyrin), [@anberns](https://github.com/anberns)
+* Added destination field to `StringSliceFlag` in [go-ceres/cli/pull/1078](https://github.com/go-ceres/cli/pull/1078) via [@davidsbond](https://github.com/davidsbond)
+* Added `HideHelpCommand`. While `HideHelp` hides both `help` command and `--help` flag, `HideHelpCommand` only hides `help` command and leave `--help` flag as-is in [go-ceres/cli/pull/1083](https://github.com/go-ceres/cli/pull/1083) via [@AkihiroSuda](https://github.com/AkihiroSuda)
+* Added timestampFlag docs in [go-ceres/cli/pull/997](https://github.com/go-ceres/cli/pull/997) via [@drov0](https://github.com/drov0)
+* Added required flags documentation in [go-ceres/cli/pull/1008](https://github.com/go-ceres/cli/pull/1008) via [@lynncyrin](https://github.com/lynncyrin), [@anberns](https://github.com/anberns)
 
 ## [2.1.1] - 2019-12-24
 
 ### Fixed
 
-* Fixed a `Context` regression introduced in `v2.1.0` in [urfave/cli/pull/1014](https://github.com/urfave/cli/pull/1014) via [@lynncyrin](https://github.com/lynncyrin)
+* Fixed a `Context` regression introduced in `v2.1.0` in [go-ceres/cli/pull/1014](https://github.com/go-ceres/cli/pull/1014) via [@lynncyrin](https://github.com/lynncyrin)
 
 ## [2.1.0] - 2019-12-24
 
-These release notes were written for the git hash [ae84df4cef4a2a6f1a0cb1d41ea0f3af8755e5a8](https://github.com/urfave/cli/tree/ae84df4cef4a2a6f1a0cb1d41ea0f3af8755e5a8)
+These release notes were written for the git hash [ae84df4cef4a2a6f1a0cb1d41ea0f3af8755e5a8](https://github.com/go-ceres/cli/tree/ae84df4cef4a2a6f1a0cb1d41ea0f3af8755e5a8)
 
 ### Fixed
 
-* Fixed some golint errors in [urfave/cli/pull/988](https://github.com/urfave/cli/pull/988) via [@liamchampton](https://github.com/liamchampton)
-* Fixed a panic with flag completion [urfave/cli/pull/946](https://github.com/urfave/cli/pull/946) via [@unRob](https://github.com/unRob)
+* Fixed some golint errors in [go-ceres/cli/pull/988](https://github.com/go-ceres/cli/pull/988) via [@liamchampton](https://github.com/liamchampton)
+* Fixed a panic with flag completion [go-ceres/cli/pull/946](https://github.com/go-ceres/cli/pull/946) via [@unRob](https://github.com/unRob)
 
 ### Changed
 
-* Changed docs generation to use visible flags in [urfave/cli/pull/999](https://github.com/urfave/cli/pull/999) via [@subpop](https://github.com/subpop)
-* Changed `App.Run` to use an optional context for timeouts and cancellation in [urfave/cli/pull/975](https://github.com/urfave/cli/pull/975) via [@marwan-at-work](https://github.com/marwan-at-work)
-* Changed version info to be hidden if the user has not defined a version in [urfave/cli/pull/955](https://github.com/urfave/cli/pull/955) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
-* Changed docs generation to take into account multiple authors in [urfave/cli/pull/900](https://github.com/urfave/cli/pull/900) via [@saschagrunert](https://github.com/saschagrunert)
-* Changed context to expose a `Value` accessor in [urfave/cli/pull/741](https://github.com/urfave/cli/pull/741) via [@corruptmemory](https://github.com/corruptmemory)
+* Changed docs generation to use visible flags in [go-ceres/cli/pull/999](https://github.com/go-ceres/cli/pull/999) via [@subpop](https://github.com/subpop)
+* Changed `App.Run` to use an optional context for timeouts and cancellation in [go-ceres/cli/pull/975](https://github.com/go-ceres/cli/pull/975) via [@marwan-at-work](https://github.com/marwan-at-work)
+* Changed version info to be hidden if the user has not defined a version in [go-ceres/cli/pull/955](https://github.com/go-ceres/cli/pull/955) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+* Changed docs generation to take into account multiple authors in [go-ceres/cli/pull/900](https://github.com/go-ceres/cli/pull/900) via [@saschagrunert](https://github.com/saschagrunert)
+* Changed context to expose a `Value` accessor in [go-ceres/cli/pull/741](https://github.com/go-ceres/cli/pull/741) via [@corruptmemory](https://github.com/corruptmemory)
 
 ### Added
 
-* Added timestamp flag in [urfave/cli/pull/987](https://github.com/urfave/cli/pull/987) via [@drov0](https://github.com/drov0)
+* Added timestamp flag in [go-ceres/cli/pull/987](https://github.com/go-ceres/cli/pull/987) via [@drov0](https://github.com/drov0)
 
 ## [2.0.0] - 2019-11-17
 
-The V2 changes were all shipped in [urfave/cli/pull/892](https://github.com/urfave/cli/pull/892), which was created with the effort of over a dozen participants! They are:
+The V2 changes were all shipped in [go-ceres/cli/pull/892](https://github.com/go-ceres/cli/pull/892), which was created with the effort of over a dozen participants! They are:
 
 [@asahasrabuddhe](https://github.com/asahasrabuddhe), [@meatballhat](https://github.com/meatballhat), [@jszwedko](https://github.com/jszwedko), [@lynncyrin](https://github.com/lynncyrin), [@AudriusButkevicius](https://github.com/AudriusButkevicius), [@saschagrunert](https://github.com/saschagrunert), [@rliebz](https://github.com/rliebz), [@johnweldon](https://github.com/johnweldon), [@nlewo](https://github.com/nlewo), [@grubernaut](https://github.com/grubernaut), [@OneOfOne](https://github.com/OneOfOne), [@VMitov](https://github.com/VMitov), [@cbranch](https://github.com/cbranch), [@marwan-at-work](https://github.com/marwan-at-work), [@uudashr](https://github.com/uudashr), [@bfreis](https://github.com/bfreis)
 
@@ -94,92 +94,92 @@ View [unreleased 1.22.X] series changes.
 
 ### Fixed
 
-- Fixed a panic with flag completion in [urfave/cli/pull/1101](https://github.com/urfave/cli/pull/1101) via [@unRob](https://github.com/unRob), [@VirrageS](https://github.com/VirrageS)
+- Fixed a panic with flag completion in [go-ceres/cli/pull/1101](https://github.com/go-ceres/cli/pull/1101) via [@unRob](https://github.com/unRob), [@VirrageS](https://github.com/VirrageS)
 
 ## [1.22.3] - 2020-02-25
 
 ### Fixed
 
-- String flag no longer persists the default value if the flag is explicitly initialized in [urfave/cli/pull/981](https://github.com/urfave/cli/pull/981) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
-- `context.IsSet()` returns `true` or `false` correctly regardless of whether the short name or the full name of the flag is passed to it in [urfave/cli/pull/978](https://github.com/urfave/cli/pull/978) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
-- Hide version if the version is not set by the user in [urfave/cli/pull/954](https://github.com/urfave/cli/pull/954) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+- String flag no longer persists the default value if the flag is explicitly initialized in [go-ceres/cli/pull/981](https://github.com/go-ceres/cli/pull/981) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+- `context.IsSet()` returns `true` or `false` correctly regardless of whether the short name or the full name of the flag is passed to it in [go-ceres/cli/pull/978](https://github.com/go-ceres/cli/pull/978) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+- Hide version if the version is not set by the user in [go-ceres/cli/pull/954](https://github.com/go-ceres/cli/pull/954) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
 
 ## [1.22.2] - 2019-11-17
 
 ### Fixed
 
-- Fix v1.21.0 pass through regression in [urfave/cli/pull/872](https://github.com/urfave/cli/pull/872) via [@lynncyrin](https://github.com/lynncyrin)
-- Fix infinite loop when parsing invalid flags for apps with short option handling in [urfave/cli/pull/911](https://github.com/urfave/cli/pull/911) via [@rliebz](https://github.com/rliebz)
-- Fix zsh autocomplete in [urfave/cli/pull/906](https://github.com/urfave/cli/pull/906) via [@gnowxilef](https://github.com/gnowxilef)
-- Fix typo in `DocGenerationFlag.TakesValue()` docstring in [urfave/cli/pull/902](https://github.com/urfave/cli/pull/902) via [@benmoose](https://github.com/benmoose)
-- Avoid panic for missing flag value in [urfave/cli/pull/893](https://github.com/urfave/cli/pull/893) via [@rliebz](https://github.com/rliebz)
+- Fix v1.21.0 pass through regression in [go-ceres/cli/pull/872](https://github.com/go-ceres/cli/pull/872) via [@lynncyrin](https://github.com/lynncyrin)
+- Fix infinite loop when parsing invalid flags for apps with short option handling in [go-ceres/cli/pull/911](https://github.com/go-ceres/cli/pull/911) via [@rliebz](https://github.com/rliebz)
+- Fix zsh autocomplete in [go-ceres/cli/pull/906](https://github.com/go-ceres/cli/pull/906) via [@gnowxilef](https://github.com/gnowxilef)
+- Fix typo in `DocGenerationFlag.TakesValue()` docstring in [go-ceres/cli/pull/902](https://github.com/go-ceres/cli/pull/902) via [@benmoose](https://github.com/benmoose)
+- Avoid panic for missing flag value in [go-ceres/cli/pull/893](https://github.com/go-ceres/cli/pull/893) via [@rliebz](https://github.com/rliebz)
 
 ### Changed
 
-- Simplify `HelpPrinter` and `CustomHelpPrinter` behaviors in [urfave/cli/pull/912](https://github.com/urfave/cli/pull/912) via [@rliebz](https://github.com/rliebz)
+- Simplify `HelpPrinter` and `CustomHelpPrinter` behaviors in [go-ceres/cli/pull/912](https://github.com/go-ceres/cli/pull/912) via [@rliebz](https://github.com/rliebz)
 
 ## [1.22.1] - 2019-09-11
 
 ### Fixed
 
-* Hide output of hidden commands on man pages in [urfave/cli/pull/889](https://github.com/urfave/cli/pull/889) via [@crosbymichael](https://github.com/crosbymichael)
-* Don't generate fish completion for hidden commands [urfave/cli/pull/891](https://github.com/urfave/891) via [@saschagrunert](https://github.com/saschagrunert)
-* Using short flag names for required flags throws an error in [urfave/cli/pull/890](https://github.com/urfave/cli/pull/890) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+* Hide output of hidden commands on man pages in [go-ceres/cli/pull/889](https://github.com/go-ceres/cli/pull/889) via [@crosbymichael](https://github.com/crosbymichael)
+* Don't generate fish completion for hidden commands [go-ceres/cli/pull/891](https://github.com/urfave/891) via [@saschagrunert](https://github.com/saschagrunert)
+* Using short flag names for required flags throws an error in [go-ceres/cli/pull/890](https://github.com/go-ceres/cli/pull/890) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
 
 ### Changed
 
-* Remove flag code generation logic, legacy python test runner in [urfave/cli/pull/883](https://github.com/urfave/cli/pull/883) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
-* Enable Go Modules support, drop support for `Go 1.10` add support for `Go 1.13` in [urfave/cli/pull/885](https://github.com/urfave/cli/pull/885) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+* Remove flag code generation logic, legacy python test runner in [go-ceres/cli/pull/883](https://github.com/go-ceres/cli/pull/883) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+* Enable Go Modules support, drop support for `Go 1.10` add support for `Go 1.13` in [go-ceres/cli/pull/885](https://github.com/go-ceres/cli/pull/885) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
 
 ## [1.22.0] - 2019-09-07
 
 ### Fixed
 
-* Fix Subcommands not falling back to `app.ExitEventHandler` in [urfave/cli/pull/856](https://github.com/urfave/cli/pull/856) via [@FaranIdo](https://github.com/FaranIdo)
+* Fix Subcommands not falling back to `app.ExitEventHandler` in [go-ceres/cli/pull/856](https://github.com/go-ceres/cli/pull/856) via [@FaranIdo](https://github.com/FaranIdo)
 
 ### Changed
 
-* Clarify that altsrc supports both TOML and JSON in [urfave/cli/pull/774](https://github.com/urfave/cli/pull/774) via [@whereswaldon](https://github.com/whereswaldon)
-* Made the exit code example more clear in [urfave/cli/pull/823](https://github.com/urfave/cli/pull/823) via [@xordspar0](https://github.com/xordspar0)
-* Removed the use of python for internal flag generation in [urfave/cli/pull/836](https://github.com/urfave/cli/pull/836) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
-* Changed the supported go versions to `1.10`, `1.11`, `1.12` in [urfave/cli/pull/843](https://github.com/urfave/cli/pull/843) via [@lafriks](https://github.com/lafriks)
-* Changed the v1 releases section in the readme in [urfave/cli/pull/862](https://github.com/urfave/cli/pull/862) via [@russoj88](https://github.com/russoj88)
-* Cleaned up go modules in [urfave/cli/pull/874](https://github.com/urfave/cli/pull/874) via [@saschagrunert](https://github.com/saschagrunert)
+* Clarify that altsrc supports both TOML and JSON in [go-ceres/cli/pull/774](https://github.com/go-ceres/cli/pull/774) via [@whereswaldon](https://github.com/whereswaldon)
+* Made the exit code example more clear in [go-ceres/cli/pull/823](https://github.com/go-ceres/cli/pull/823) via [@xordspar0](https://github.com/xordspar0)
+* Removed the use of python for internal flag generation in [go-ceres/cli/pull/836](https://github.com/go-ceres/cli/pull/836) via [@asahasrabuddhe](https://github.com/asahasrabuddhe)
+* Changed the supported go versions to `1.10`, `1.11`, `1.12` in [go-ceres/cli/pull/843](https://github.com/go-ceres/cli/pull/843) via [@lafriks](https://github.com/lafriks)
+* Changed the v1 releases section in the readme in [go-ceres/cli/pull/862](https://github.com/go-ceres/cli/pull/862) via [@russoj88](https://github.com/russoj88)
+* Cleaned up go modules in [go-ceres/cli/pull/874](https://github.com/go-ceres/cli/pull/874) via [@saschagrunert](https://github.com/saschagrunert)
 
 ### Added
 
-* Added `UseShortOptionHandling` for combining short flags in [urfave/cli/pull/735](https://github.com/urfave/cli/pull/735) via [@rliebz](https://github.com/rliebz)
-* Added support for flags bash completion in [urfave/cli/pull/808](https://github.com/urfave/cli/pull/808) via [@yogeshlonkar](https://github.com/yogeshlonkar)
-* Added the `TakesFile` indicator to flag in [urfave/cli/pull/851](https://github.com/urfave/cli/pull/851) via [@saschagrunert](https://github.com/saschagrunert)
-* Added fish shell completion support in [urfave/cli/pull/848](https://github.com/urfave/cli/pull/848) via [@saschagrunert](https://github.com/saschagrunert)
+* Added `UseShortOptionHandling` for combining short flags in [go-ceres/cli/pull/735](https://github.com/go-ceres/cli/pull/735) via [@rliebz](https://github.com/rliebz)
+* Added support for flags bash completion in [go-ceres/cli/pull/808](https://github.com/go-ceres/cli/pull/808) via [@yogeshlonkar](https://github.com/yogeshlonkar)
+* Added the `TakesFile` indicator to flag in [go-ceres/cli/pull/851](https://github.com/go-ceres/cli/pull/851) via [@saschagrunert](https://github.com/saschagrunert)
+* Added fish shell completion support in [go-ceres/cli/pull/848](https://github.com/go-ceres/cli/pull/848) via [@saschagrunert](https://github.com/saschagrunert)
 
 ## [1.21.0] - 2019-08-02
 
 ### Fixed
 
-* Fix using "slice" flag types with `EnvVar` in [urfave/cli/pull/687](https://github.com/urfave/cli/pull/687) via [@joshuarubin](https://github.com/joshuarubin)
-* Fix regression of `SkipFlagParsing` behavior in [urfave/cli/pull/697](https://github.com/urfave/cli/pull/697) via [@jszwedko](https://github.com/jszwedko)
-* Fix handling `ShortOptions` and `SkipArgReorder` in [urfave/cli/pull/686](https://github.com/urfave/cli/pull/686) via [@baude](https://github.com/baude)
-* Fix args reordering when bool flags are present in [urfave/cli/pull/712](https://github.com/urfave/cli/pull/712) via [@windler](https://github.com/windler)
-* Fix parsing of short options in [urfave/cli/pull/758](https://github.com/urfave/cli/pull/758) via [@vrothberg](https://github.com/vrothberg)
-* Fix unaligned indents for the command help messages in [urfave/cli/pull/806](https://github.com/urfave/cli/pull/806) via [@mingrammer](https://github.com/mingrammer)
+* Fix using "slice" flag types with `EnvVar` in [go-ceres/cli/pull/687](https://github.com/go-ceres/cli/pull/687) via [@joshuarubin](https://github.com/joshuarubin)
+* Fix regression of `SkipFlagParsing` behavior in [go-ceres/cli/pull/697](https://github.com/go-ceres/cli/pull/697) via [@jszwedko](https://github.com/jszwedko)
+* Fix handling `ShortOptions` and `SkipArgReorder` in [go-ceres/cli/pull/686](https://github.com/go-ceres/cli/pull/686) via [@baude](https://github.com/baude)
+* Fix args reordering when bool flags are present in [go-ceres/cli/pull/712](https://github.com/go-ceres/cli/pull/712) via [@windler](https://github.com/windler)
+* Fix parsing of short options in [go-ceres/cli/pull/758](https://github.com/go-ceres/cli/pull/758) via [@vrothberg](https://github.com/vrothberg)
+* Fix unaligned indents for the command help messages in [go-ceres/cli/pull/806](https://github.com/go-ceres/cli/pull/806) via [@mingrammer](https://github.com/mingrammer)
 
 ### Changed
 
-* Cleaned up help output in [urfave/cli/pull/664](https://github.com/urfave/cli/pull/664) via [@maguro](https://github.com/maguro)
-* Remove redundant nil checks in [urfave/cli/pull/773](https://github.com/urfave/cli/pull/773) via [@teresy](https://github.com/teresy)
-* Case is now considered when sorting strings in [urfave/cli/pull/676](https://github.com/urfave/cli/pull/676) via [@rliebz](https://github.com/rliebz)
+* Cleaned up help output in [go-ceres/cli/pull/664](https://github.com/go-ceres/cli/pull/664) via [@maguro](https://github.com/maguro)
+* Remove redundant nil checks in [go-ceres/cli/pull/773](https://github.com/go-ceres/cli/pull/773) via [@teresy](https://github.com/teresy)
+* Case is now considered when sorting strings in [go-ceres/cli/pull/676](https://github.com/go-ceres/cli/pull/676) via [@rliebz](https://github.com/rliebz)
 
 ### Added
 
-* Added _"required flags"_ support in [urfave/cli/pull/819](https://github.com/urfave/cli/pull/819) via [@lynncyrin](https://github.com/lynncyrin/)
-* Backport JSON `InputSource` to v1 in [urfave/cli/pull/598](https://github.com/urfave/cli/pull/598) via [@jszwedko](https://github.com/jszwedko)
-* Allow more customization of flag help strings in [urfave/cli/pull/661](https://github.com/urfave/cli/pull/661) via [@rliebz](https://github.com/rliebz)
-* Allow custom `ExitError` handler function in [urfave/cli/pull/628](https://github.com/urfave/cli/pull/628) via [@phinnaeus](https://github.com/phinnaeus)
-* Allow loading a variable from a file in [urfave/cli/pull/675](https://github.com/urfave/cli/pull/675) via [@jmccann](https://github.com/jmccann)
-* Allow combining short bool names in [urfave/cli/pull/684](https://github.com/urfave/cli/pull/684) via [@baude](https://github.com/baude)
-* Added test coverage to context in [urfave/cli/pull/788](https://github.com/urfave/cli/pull/788) via [@benzvan](https://github.com/benzvan)
-* Added go module support in [urfave/cli/pull/831](https://github.com/urfave/cli/pull/831) via [@saschagrunert](https://github.com/saschagrunert)
+* Added _"required flags"_ support in [go-ceres/cli/pull/819](https://github.com/go-ceres/cli/pull/819) via [@lynncyrin](https://github.com/lynncyrin/)
+* Backport JSON `InputSource` to v1 in [go-ceres/cli/pull/598](https://github.com/go-ceres/cli/pull/598) via [@jszwedko](https://github.com/jszwedko)
+* Allow more customization of flag help strings in [go-ceres/cli/pull/661](https://github.com/go-ceres/cli/pull/661) via [@rliebz](https://github.com/rliebz)
+* Allow custom `ExitError` handler function in [go-ceres/cli/pull/628](https://github.com/go-ceres/cli/pull/628) via [@phinnaeus](https://github.com/phinnaeus)
+* Allow loading a variable from a file in [go-ceres/cli/pull/675](https://github.com/go-ceres/cli/pull/675) via [@jmccann](https://github.com/jmccann)
+* Allow combining short bool names in [go-ceres/cli/pull/684](https://github.com/go-ceres/cli/pull/684) via [@baude](https://github.com/baude)
+* Added test coverage to context in [go-ceres/cli/pull/788](https://github.com/go-ceres/cli/pull/788) via [@benzvan](https://github.com/benzvan)
+* Added go module support in [go-ceres/cli/pull/831](https://github.com/go-ceres/cli/pull/831) via [@saschagrunert](https://github.com/saschagrunert)
 
 ## [1.20.0] - 2017-08-10
 
@@ -208,7 +208,7 @@ View [unreleased 1.22.X] series changes.
 * No longer exit the program on command/subcommand error if the error raised is
   not an `OsExiter`. This exiting behavior was introduced in 1.19.0, but was
   determined to be a regression in functionality. See [the
-  PR](https://github.com/urfave/cli/pull/595) for discussion.
+  PR](https://github.com/go-ceres/cli/pull/595) for discussion.
 
 ### Added
 
@@ -249,7 +249,7 @@ View [unreleased 1.22.X] series changes.
   This is useful if you want to consider all "flags" after an argument as
   arguments rather than flags (the default behavior of the stdlib `flag`
   library). This is backported functionality from the [removal of the flag
-  reordering](https://github.com/urfave/cli/pull/398) in the unreleased version
+  reordering](https://github.com/go-ceres/cli/pull/398) in the unreleased version
   2
 - For formatted errors (those implementing `ErrorFormatter`), the errors will
   be formatted during output. Compatible with `pkg/errors`.
@@ -271,8 +271,8 @@ View [unreleased 1.22.X] series changes.
   would return `false` if a flag was specified in the environment rather than
   as an argument
 - Removed deprecation warnings to STDERR to avoid them leaking to the end-user
-- `altsrc`s import paths were updated to use `gopkg.in/urfave/cli.v1`. This
-  fixes issues that occurred when `gopkg.in/urfave/cli.v1` was imported as well
+- `altsrc`s import paths were updated to use `gopkg.in/go-ceres/cli.v1`. This
+  fixes issues that occurred when `gopkg.in/go-ceres/cli.v1` was imported as well
   as `altsrc` where Go would complain that the types didn't match
 
 ## [1.18.1] - 2016-08-28
@@ -320,7 +320,7 @@ View [unreleased 1.22.X] series changes.
   makes it easier to script around apps built using `cli` since they can trust
   that a 0 exit code indicated a successful execution.
 - cleanups based on [Go Report Card
-  feedback](https://goreportcard.com/report/github.com/urfave/cli)
+  feedback](https://goreportcard.com/report/github.com/go-ceres/cli)
 
 ## [1.16.1] - 2016-08-28
 ### Fixed
@@ -584,44 +584,44 @@ signature of `func(*cli.Context) error`, as defined by `cli.ActionFunc`.
 ### Added
 - Initial implementation.
 
-[unreleased 2.X]: https://github.com/urfave/cli/compare/v2.2.0...HEAD
-[2.2.0]: https://github.com/urfave/cli/compare/v2.1.1...v2.2.0
-[2.1.1]: https://github.com/urfave/cli/compare/v2.1.0...v2.1.1
-[2.1.0]: https://github.com/urfave/cli/compare/v2.0.0...v2.1.0
-[2.0.0]: https://github.com/urfave/cli/compare/v1.22.2...v2.0.0
+[unreleased 2.X]: https://github.com/go-ceres/cli/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/go-ceres/cli/compare/v2.1.1...v2.2.0
+[2.1.1]: https://github.com/go-ceres/cli/compare/v2.1.0...v2.1.1
+[2.1.0]: https://github.com/go-ceres/cli/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/go-ceres/cli/compare/v1.22.2...v2.0.0
 
-[unreleased 1.22.X]: https://github.com/urfave/cli/compare/v1.22.4...v1
-[1.22.4]: https://github.com/urfave/cli/compare/v1.22.3...v1.22.4
-[1.22.3]: https://github.com/urfave/cli/compare/v1.22.2...v1.22.3
-[1.22.2]: https://github.com/urfave/cli/compare/v1.22.1...v1.22.2
-[1.22.1]: https://github.com/urfave/cli/compare/v1.22.0...v1.22.1
-[1.22.0]: https://github.com/urfave/cli/compare/v1.21.0...v1.22.0
-[1.21.0]: https://github.com/urfave/cli/compare/v1.20.0...v1.21.0
-[1.20.0]: https://github.com/urfave/cli/compare/v1.19.1...v1.20.0
-[1.19.1]: https://github.com/urfave/cli/compare/v1.19.0...v1.19.1
-[1.19.0]: https://github.com/urfave/cli/compare/v1.18.0...v1.19.0
-[1.18.0]: https://github.com/urfave/cli/compare/v1.17.0...v1.18.0
-[1.17.0]: https://github.com/urfave/cli/compare/v1.16.0...v1.17.0
-[1.16.0]: https://github.com/urfave/cli/compare/v1.15.0...v1.16.0
-[1.15.0]: https://github.com/urfave/cli/compare/v1.14.0...v1.15.0
-[1.14.0]: https://github.com/urfave/cli/compare/v1.13.0...v1.14.0
-[1.13.0]: https://github.com/urfave/cli/compare/v1.12.0...v1.13.0
-[1.12.0]: https://github.com/urfave/cli/compare/v1.11.1...v1.12.0
-[1.11.1]: https://github.com/urfave/cli/compare/v1.11.0...v1.11.1
-[1.11.0]: https://github.com/urfave/cli/compare/v1.10.2...v1.11.0
-[1.10.2]: https://github.com/urfave/cli/compare/v1.10.1...v1.10.2
-[1.10.1]: https://github.com/urfave/cli/compare/v1.10.0...v1.10.1
-[1.10.0]: https://github.com/urfave/cli/compare/v1.9.0...v1.10.0
-[1.9.0]: https://github.com/urfave/cli/compare/v1.8.0...v1.9.0
-[1.8.0]: https://github.com/urfave/cli/compare/v1.7.1...v1.8.0
-[1.7.1]: https://github.com/urfave/cli/compare/v1.7.0...v1.7.1
-[1.7.0]: https://github.com/urfave/cli/compare/v1.6.0...v1.7.0
-[1.6.0]: https://github.com/urfave/cli/compare/v1.5.0...v1.6.0
-[1.5.0]: https://github.com/urfave/cli/compare/v1.4.1...v1.5.0
-[1.4.1]: https://github.com/urfave/cli/compare/v1.4.0...v1.4.1
-[1.4.0]: https://github.com/urfave/cli/compare/v1.3.1...v1.4.0
-[1.3.1]: https://github.com/urfave/cli/compare/v1.3.0...v1.3.1
-[1.3.0]: https://github.com/urfave/cli/compare/v1.2.0...v1.3.0
-[1.2.0]: https://github.com/urfave/cli/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/urfave/cli/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/urfave/cli/compare/v0.1.0...v1.0.0
+[unreleased 1.22.X]: https://github.com/go-ceres/cli/compare/v1.22.4...v1
+[1.22.4]: https://github.com/go-ceres/cli/compare/v1.22.3...v1.22.4
+[1.22.3]: https://github.com/go-ceres/cli/compare/v1.22.2...v1.22.3
+[1.22.2]: https://github.com/go-ceres/cli/compare/v1.22.1...v1.22.2
+[1.22.1]: https://github.com/go-ceres/cli/compare/v1.22.0...v1.22.1
+[1.22.0]: https://github.com/go-ceres/cli/compare/v1.21.0...v1.22.0
+[1.21.0]: https://github.com/go-ceres/cli/compare/v1.20.0...v1.21.0
+[1.20.0]: https://github.com/go-ceres/cli/compare/v1.19.1...v1.20.0
+[1.19.1]: https://github.com/go-ceres/cli/compare/v1.19.0...v1.19.1
+[1.19.0]: https://github.com/go-ceres/cli/compare/v1.18.0...v1.19.0
+[1.18.0]: https://github.com/go-ceres/cli/compare/v1.17.0...v1.18.0
+[1.17.0]: https://github.com/go-ceres/cli/compare/v1.16.0...v1.17.0
+[1.16.0]: https://github.com/go-ceres/cli/compare/v1.15.0...v1.16.0
+[1.15.0]: https://github.com/go-ceres/cli/compare/v1.14.0...v1.15.0
+[1.14.0]: https://github.com/go-ceres/cli/compare/v1.13.0...v1.14.0
+[1.13.0]: https://github.com/go-ceres/cli/compare/v1.12.0...v1.13.0
+[1.12.0]: https://github.com/go-ceres/cli/compare/v1.11.1...v1.12.0
+[1.11.1]: https://github.com/go-ceres/cli/compare/v1.11.0...v1.11.1
+[1.11.0]: https://github.com/go-ceres/cli/compare/v1.10.2...v1.11.0
+[1.10.2]: https://github.com/go-ceres/cli/compare/v1.10.1...v1.10.2
+[1.10.1]: https://github.com/go-ceres/cli/compare/v1.10.0...v1.10.1
+[1.10.0]: https://github.com/go-ceres/cli/compare/v1.9.0...v1.10.0
+[1.9.0]: https://github.com/go-ceres/cli/compare/v1.8.0...v1.9.0
+[1.8.0]: https://github.com/go-ceres/cli/compare/v1.7.1...v1.8.0
+[1.7.1]: https://github.com/go-ceres/cli/compare/v1.7.0...v1.7.1
+[1.7.0]: https://github.com/go-ceres/cli/compare/v1.6.0...v1.7.0
+[1.6.0]: https://github.com/go-ceres/cli/compare/v1.5.0...v1.6.0
+[1.5.0]: https://github.com/go-ceres/cli/compare/v1.4.1...v1.5.0
+[1.4.1]: https://github.com/go-ceres/cli/compare/v1.4.0...v1.4.1
+[1.4.0]: https://github.com/go-ceres/cli/compare/v1.3.1...v1.4.0
+[1.3.1]: https://github.com/go-ceres/cli/compare/v1.3.0...v1.3.1
+[1.3.0]: https://github.com/go-ceres/cli/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/go-ceres/cli/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/go-ceres/cli/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/go-ceres/cli/compare/v0.1.0...v1.0.0
